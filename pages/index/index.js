@@ -253,7 +253,6 @@ Page({
     const v = parseInt(e.detail.value);
     const a = [...this.data.array];
     a.forEach((e,i) => {
-      console.log(id === e.id )
       if (id === e.id && v && v > 0) {
         e.count = v;
       }
@@ -312,7 +311,6 @@ Page({
     }
   },
   getUserInfo: function(e) {
-    console.log(e)
     app.globalData.userInfo = e.detail.userInfo
     this.setData({
       userInfo: e.detail.userInfo,

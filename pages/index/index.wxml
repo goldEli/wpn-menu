@@ -24,11 +24,11 @@
           <text style="color:red;font-size:20px">{{item.price}}</text><text style="font-size:12px">元/{{item.unit}}/{{item.spec}}</text>
         </view>
       </view>
-      <view style="width:100%;margin-top:10px;padding-top:10px">
+      <!-- <view style="width:100%;margin-top:10px;padding-top:10px">
         <input bindinput='bindRecInpt' value="{{recInfo.recName}}" id="recName" style="padding:5px;" placeholder="请输入收货人名字" />
         <input bindinput='bindRecInpt' value="{{recInfo.recMobile}}" id="recMobile" style="padding:5px;" placeholder="请输入收货人电话" />
         <input bindinput='bindRecInpt' value="{{recInfo.recAddress}}" id="recAddress" style="padding:5px;" placeholder="请输入收货地址" />
-      </view>
+      </view> -->
     </view>
   </view>
   <view wx:if="{{isShowCalMode}}" class="bar">
