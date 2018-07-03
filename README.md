@@ -1,4 +1,4 @@
-# 微商菜单
+# 微商菜单(此版本已停用，[前往新版本](https://github.com/goldEli/wpn_tool))
 
 方便买家与卖家沟通
 
